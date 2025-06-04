@@ -1,76 +1,72 @@
-# 📣 Marketing Analytics for Sustainable Growth
+# 📊 Marketing Analytics for Sustainable Growth
 
-**Client**: Sistema.bio  
-**Status**: NDA-Compliant Summary Only (No code or data included)
+**Client:** Sistema.bio  
+**Status:** NDA-Compliant Summary Only (No code or data included)
 
 ---
 
-## 🔍 Project Overview  
-In collaboration with **Sistema.bio**, a pioneering enterprise in sustainable agricultural technology, this project aimed to improve their **digital marketing effectiveness**. **META campaign datasets**, **website analytics**, and **Google Analytics reports** were granted access to uncover performance patterns and drive **audience-targeted strategies**.
-
-The goal was to develop actionable insights for marketing teams, enabling **data-informed campaign planning**, improved **audience engagement**, and **region-specific web strategies** in support of the company’s mission for **social and environmental impact**.
+## 🔍 Project Overview
+In partnership with Sistema.bio, a leading provider of sustainable agricultural solutions, I led a marketing analytics project. Using web and social media data, our goal was to extract actionable insights to refine Sistema’s campaign strategies, website content, and audience engagement — all aimed at fostering growth and sustainable impact.
 
 ---
 
 ## 🎯 Objectives
-
-- Identify **top-performing campaigns** and engagement drivers on social media.
-- Uncover trends in **audience segmentation** and **message effectiveness**.
-- Analyze **website traffic patterns** by region and content type.
-- Develop predictive models to inform **ad performance** strategies.
-- Recommend segmentation strategies for low-, moderate-, and high-engagement users.
+- Determine the most effective campaigns in terms of audience engagement and reach.
+- Identify content and messaging trends from web traffic and campaign materials.
+- Understand geographic patterns of website visits and traffic behavior.
+- Build a predictive model to estimate user engagement (Clicks All).
 
 ---
 
-## 🧐 Methodology
-
-### 1. **Social Media & Campaign Analysis**
-- Campaign performance metrics (Impressions, Clicks, Engagement Rate) were assessed.
-- Derived qualitative insights from content tone, emotional hooks, and timing patterns.
-- Evaluated platform differences (Facebook vs. Instagram) to shape channel-specific tactics.
-
-### 2. **Web Traffic & Audience Behavior**
-- Aggregated and visualized **traffic by region** using Google Analytics data.
-- Conducted **topic modeling (LDA)** to uncover themes in popular pages.
-- Analyzed correlations between region, device type, and content engagement.
-
-### 3. **Predictive Modeling**
-- Built a **linear regression model** to predict `Clicks (all)` based on campaign attributes.
-- Feature importance was extracted to prioritize variables such as media type and target age group.
-
-### 4. **Clustering & Segmentation**
-- Applied **K-Means clustering** to group users by engagement level.
-- Used **Silhouette Score** to optimize cluster number.
-- Tailored engagement strategies for:
-  - **Low Engagement**: Retargeting, surveys, gamification.
-  - **Moderate Engagement**: Personalized outreach, email campaigns.
-  - **High Engagement**: Referral incentives, video content, Instagram Reels/IGTV.
+## 🧠 Methodology
+- **Data Sources:** [hide]
+- **Exploratory Analysis:** Trends and distribution patterns in impressions, clicks, engagement rates.
+- **Engagement Clustering:** K-means clustering to segment audiences based on interaction levels.
+- **Predictive Modeling:** Linear regression model developed in **R** to predict campaign click outcomes.
+- **Topic Modeling:** Identified key topics among high-traffic pages using unsupervised machine learning.
 
 ---
 
 ## 🛠️ Tools & Technologies
-
-| Category         | Tools/Methods                                    |
-|------------------|--------------------------------------------------|
-| **Languages**     | R                                           |
-| **Libraries**     | Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Gensim |
-| **Techniques**    | Linear Regression, K-Means Clustering, Topic Modeling (LDA), Feature Importance, Engagement Funnel Analysis |
-| **Platforms**     | Google Analytics, Facebook Ads (META), Internal CRM Dashboards |
-| **Data Preprocessing** | Null handling, standardization, date parsing, merging campaign metadata |
+- **Language:** R
+- **Libraries & Packages:** `ggplot2`, `dplyr`, `tidytext`, `tm`, `caret`, `cluster`, `NbClust`, `factoextra`
+- **Techniques:**
+  - K-means clustering & silhouette analysis
+  - Linear regression modeling
+  - Natural language processing (NLP) for topic extraction
+  - Web traffic segmentation by region
+  - Visual storytelling with ggplot2
 
 ---
 
-## 📈 Outcomes & Impact
+## 📈 Key Business Insights
+### Campaign & Ad Performance
+- Emotional and community-driven messaging drove the highest engagement.
+- Multimedia content (e.g., YouTube links) outperformed text-based posts.
+- Timing and relevance to current national events significantly increased visibility.
 
-- **Isolated top-performing campaigns** to establish repeatable creative and timing patterns.
-- Revealed that **multimedia and emotionally resonant content** yielded higher engagement.
-- Identified the **most active regions (e.g., Kiambu, Mombasa)** and **highest-performing landing pages**.
-- Delivered a framework for **audience-specific engagement strategies**, improving future campaign targeting.
-- Provided insights that encouraged **local language content** and mobile-first media design.
+### Audience Segmentation
+- Developed 3-tier strategy (Low, Medium, High engagement clusters).
+- Recommended personalized retargeting for low-engagement groups.
+- Instagram optimization for highly engaged users originally acquired via Facebook.
+
+### Website Behavior & Topic Modeling
+- Identified two main content themes: *General Education* and *Initiatives & Partnerships*.
+- High web activity in urban centers such as Kiambu and Mombasa.
+- Most-viewed page: *Sistema.bio: The Biodigester Solution*.
+
+---
+
+## 💡 Strategic Recommendations
+- Continue incorporating emotionally resonant storytelling.
+- Optimize mobile content for Kenya’s dominant platforms: Facebook, WhatsApp.
+- Expand multimedia use and experiment with short-form video content.
+- Use topic modeling insights to restructure and prioritize content.
+- Deepen audience clustering with more longitudinal engagement metrics.
 
 ---
 
 ## 🔐 NDA Compliance
+This repository does not contain source code, raw data, or proprietary business logic. All insights are anonymized and represent high-level deliverables for professional and portfolio purposes only.
 
-This repository does not include raw datasets, code implementations, or client-sensitive materials.  
-All content has been **sanitized** to preserve the confidentiality of Sistema.bio’s operations and proprietary data.
+---
