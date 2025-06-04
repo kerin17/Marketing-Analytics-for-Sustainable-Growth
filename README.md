@@ -19,7 +19,7 @@ In partnership with Sistema.bio, a leading provider of sustainable agricultural 
 ---
 
 ## 🧠 Methodology
-- **Data Sources:** [hide]
+- **Data Sources:** Not Available
 - **Exploratory Analysis:** Trends and distribution patterns in impressions, clicks, engagement rates.
 - **Engagement Clustering:** K-means clustering to segment audiences based on interaction levels.
 - **Predictive Modeling:** Linear regression model developed in **R** to predict campaign click outcomes.
