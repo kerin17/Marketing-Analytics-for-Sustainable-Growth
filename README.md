@@ -6,7 +6,7 @@
 ---
 
 ## 🔍 Project Overview
-In partnership with Sistema.bio, a leading provider of sustainable agricultural solutions, I led a marketing analytics project. Using web and social media data, our goal was to extract actionable insights to refine Sistema’s campaign strategies, website content, and audience engagement — all aimed at fostering growth and sustainable impact.
+In partnership with Sistema.bio, a leading provider of sustainable agricultural solutions, I led a marketing analytics project. Using web and social media data, our goal was to extract actionable insights to refine Sistema’s campaign strategies, website content, and audience engagement - all aimed at fostering growth and sustainable impact.
 
 ---
 
